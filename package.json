@@ -1,0 +1,12 @@
+{
+  "name": "fullstack-test",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "frontend": "npm run dev --workspace=apps/frontend",
+    "backend": "npm run dev --workspace=apps/backend",
+    "api": "npm run dev --workspace=apps/api"
+  }
+}
